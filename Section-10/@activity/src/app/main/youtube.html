@@ -1,0 +1,11 @@
+
+  <ng-loader [loaded]="loaded"></ng-loader>
+  <search-bar (searchTextChange)="SearchValueChange($event);"></search-bar>
+  <div class="row container">
+    <div class="col-md-8">
+    <video-detail (clickChange)="clickChangeEvent($event);" [selectVideo]="selectVideo"></video-detail>
+  </div>
+  <div class="col-md-4">
+    <video-list (clickParentChange)="handleClickParentChange($event);"  [Videos]="Videos"></video-list>
+  </div>
+  </div>

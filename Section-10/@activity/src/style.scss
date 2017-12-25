@@ -1,0 +1,60 @@
+body {
+  font-size: 18px;
+  background-color: rgba(204, 204, 204, 0.41);
+  font-family: "Roboto", sans-serif !important;
+  margin: 0px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  color: inherit;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 100px;
+  padding: 10px;
+  color: black;
+  background-image: url(https://marketingland.com/wp-content/ml-loads/2014/08/youtube-iconsbkgd-fade-1920.jpg);
+  background-size: cover;
+}
+.container{
+  width:1200px;
+  margin: auto;
+}
+
+.media-title {
+  padding: 10px;
+}
+
+.listing {
+  width: 100%;
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+  input {
+    display: block;
+    width: 70%;
+    MARGIN: AUTO;
+    height: 30px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c7bcb8;
+    border-radius: 0px !important;
+  }
+}

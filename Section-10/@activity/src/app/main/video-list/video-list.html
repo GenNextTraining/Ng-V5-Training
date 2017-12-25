@@ -1,0 +1,4 @@
+<ul  *ngFor="let video of Videos" class="listing">
+    <video-list-item  (clickChange)="handleClickChange($event);"   [videoList]="video" ></video-list-item>
+</ul>
+
